@@ -193,8 +193,8 @@ recordRoutes.route("/shop/delete/:id").get(function(req, res) {
         res.json(result);
       });
 });
-*/
-/*
+
+
 // This section will help you get a single record by id
 recordRoutes.route("/shop/:id").get(function (req, res) {
  let db_connect = dbo.getDb("worldcup22");
@@ -251,5 +251,5 @@ recordRoutes.route("/:id").delete((req, response) => {
    response.json(obj);
  });
 });
- 
+ */
 module.exports = recordRoutes;
