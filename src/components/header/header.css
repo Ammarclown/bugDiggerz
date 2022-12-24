@@ -1,0 +1,111 @@
+.header {
+    background-image: url("https://i.postimg.cc/SNwRkk2P/header3.png");
+    background-size: cover;
+    /*  background: rgb(16, 119, 195);
+    background: linear-gradient(0deg, rgba(16, 119, 195, 1) 0%, rgb(62, 169, 205) 100%);
+    */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 1px 1px #3d0000;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+
+.headerdesc {
+    margin: 20px 0px;
+}
+
+.headerBtn {
+    background-color: #3d0000;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 4px 19px 8px 20px;
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.headerBtn:hover {
+    background: #ff0d4a;
+    background-image: -webkit-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -moz-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -ms-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -o-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: linear-gradient(to bottom, #ff0d4a, #ab0000);
+    text-decoration: none;
+}
+
+.headerSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #820000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.headerIcon {
+    color: lightgray;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.headerSearchInput {
+    font-size: 20px;
+    padding: 4px 280px 8px 280px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.headerSearchButton {
+    position: relative;
+    background: #820000;
+    background-image: -webkit-linear-gradient(top, #4c0202, #4c0202);
+    background-image: -moz-linear-gradient(top, #4c0202, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #4c0202);
+    background-image: -o-linear-gradient(top, #4c0202, #2980b9);
+    background-image: linear-gradient(to bottom, #4c0202, #c40e0e);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 4px 19px 8px 20px;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+.headerSearchButton:hover {
+    background: #ff0d4a;
+    background-image: -webkit-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -moz-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -ms-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: -o-linear-gradient(top, #ff0d4a, #ab0000);
+    background-image: linear-gradient(to bottom, #ff0d4a, #ab0000);
+    text-decoration: none;
+}
